@@ -1,0 +1,74 @@
+//colors
+$colors: (
+  "primary": #db6800,
+  "info": #ffde00,
+  "black": #000,
+  "dark-1": #251c0f,
+  "dark-2": #343440,
+  "white": #fff,
+  "white-1": #fcfcfc,
+  "white-2": #eceef0,
+  "grey-1": #666,
+  "grey": #999,
+  "light-1": #d4d9de,
+  "blue": #4394e4,
+  "blue-1": #1f3695,
+  "danger": #791a15
+);
+
+$border-color: map-get(
+  $map: $colors,
+  $key: "light-1"
+);
+
+// font size
+$base-font-size: 1rem;
+$font-sizes: (
+  // 8px
+    xxs: 0.6154,
+  // 10px
+    xs: 0.7692,
+  // 12px
+    sm: 0.9231,
+  // 13px
+    md: 1,
+  // 14px
+    lg: 1.0769,
+  // 16px
+    xl: 1.2308
+);
+
+$flex-jc: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  between: space-between,
+  around: space-around
+);
+
+$flex-ai: (
+  start: flex-start,
+  end: flex-end,
+  center: center,
+  stretch: stretch
+);
+
+$spacing-types: (
+  m: margin,
+  p: padding
+);
+$spacing-directions: (
+  t: top,
+  r: right,
+  b: bottom,
+  l: left
+);
+$spacing-base-size: 1rem;
+$spacing-sizes: (
+  0: 0,
+  1: 0.25,
+  2: 0.5,
+  3: 1,
+  4: 1.5,
+  5: 3
+);
